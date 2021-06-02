@@ -5,6 +5,8 @@ Automatically deploy Windows OS
 
 [基于WDS+MDT全自动部署WIN系统](https://www.sohu.com/a/198024963_733939)
 
+[WDS为引导映像添加额外的网卡驱动支持](https://goxia.maytide.net/read.php/1422.htm)
+
 ## USB3.0问题
 HCI (Host Controller Interface) 即主机控制接口。HCI是寄存器层级的界面接口，它允许一个主控制器（Host Controller 如 主板南桥southbridge of Motherboard）来实现与外设如（USB、火线以及蓝牙）之间的通讯。当外设与PC相连接后，系统先进行初始化，HCI开始线程（threads）读写，建立与外设的连接。接下来，HCI会重置然后读外设的缓存大小，建立与外设的通讯。而EHCI (Enhanced Host Controller Interface)是HCI增强的（Enhanced）版本。
 
